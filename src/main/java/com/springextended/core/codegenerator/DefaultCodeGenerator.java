@@ -17,8 +17,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * 保证每0.1秒生成 Math.pow(36,serialNoLength) 个不同的code
  * </p>
  *
- * @author chuanzhang
- * Email chuanzhang@uoko.com
+ * @author jefferyzhang
  * created at 2019 - 05 - 05 18:59
  */
 @Slf4j
