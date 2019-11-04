@@ -1,7 +1,5 @@
 package com.springextended.core.codegenerator;
 
-import java.time.LocalDateTime;
-
 /**
  * <p>
  * Code生成器
@@ -19,12 +17,4 @@ public interface CodeGenerator {
      * @return
      */
     String next(String prefix);
-
-    /**
-     * 指定时间生成下一个code
-     * @param time
-     * @param prefix
-     * @return
-     */
-    String next(LocalDateTime time, String prefix);
 }
